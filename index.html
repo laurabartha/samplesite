@@ -3,28 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Birthday Party!</title>
+    <title>Open House</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <style>
         * {
 
             margin: 0 auto;
             text-align: center;
+            font-family: "Montserrat", sans-serif;
         }
 
         header{
-            background: no-repeat url('./balloons.jpg');
+            background: no-repeat url('./house2.png');
             background-size: cover;
-            min-height: 80vh;
+            background-position: center;
+            min-height: 90vh;
             padding-top: 10vh;
         
         }
 
         h1{
-            background-color: rgba(145, 224, 254,  84%);
-            margin-top: 30vh;
-            margin-left: 10vw;
-            margin-right: 10vw; 
-            padding: 4vh;
+            background-color: rgb(243 243 243 / 91%);
+            margin-top: 50vh;
+            margin-left: auto;
+            margin-right: auto; 
+            padding: 3vh;
           
         }
 
@@ -44,18 +49,23 @@
         }
 
         img, iframe {
+            min-width: 30vw;
             max-width: 80vw;
             max-height: 70vh;
             padding-top: 2vh;
             padding-bottom: 2vh;
         }
  
+        iframe {
+          
+              min-height: 40vh;
+        }
 
         section {
             padding: 3vh;
         }
 
-        .rsvp {
+        .blue {
 
             background-color: rgba(145, 224, 254,  84%);
           
@@ -65,40 +75,44 @@
             padding: 1vh;
         }
 
+        .portrait {
+            border-radius: 50%;
+        }
+
+
     
     </style>
 </head>
 <body>
    <header>
-    <h1> Ura's Birthday Party</h1>
+    <h1> Open House Event</h1>
    </header> 
    <main>
     <section>
-        <h2> Details </h2>
-        <img src="portrait.jpg" alt="Picture of Birthday Person"/>
-        <p>We are very excited to party with you! Join Ura for crafting, pizza lunch, and cake! </p>
-       
-        <p class="info"><strong>Date: </strong>July 33rd, 2025</p>
-        <p class="info"><strong>Time: </strong>11am - 2pm</p>
-        <p class="info"><strong>Lunch: </strong> 12pm (noon) </p>
-        <p class="info"><strong>Location:</strong> Awesome Craft Studio, 123 Main St, Milton, Ontario</p>
-  
-    
-
+        <h2> 6125 Main St. W. </h2>
+        <p>Discover your next home! Join us for a tour.</p>
+        <img src="inside.jpg" alt="Picture of a house for sale"/>
+        <p class="info"><strong>Location:</strong> 6125 Main St. W., Milton, Ontario</p>
+        <p class="info"><strong>Date: </strong> July 33rd, 2025</p>
+        <p class="info"><strong>Time: </strong> 10am - 4pm</p>
     </section>
-    <section class="rsvp">
+    <section class="blue">
+        <h2> The House </h2>
+        <img src="bathroom.jpg" alt="Picture of a house for sale"/>
+        <p class="info"><strong>Listing Price:</strong> 1,499,999</p>
+        <p class="info"><strong>Bedrooms:</strong> 3 </p>
+        <p class="info"><strong>Bathrooms:</strong> 3 </p>
+    </section>
+    <section >
         <h2> RSVP </h2>
-        <h3> RSVP to Onosato and Wakataka</h3> 
-        <p class="info"> <strong>Email:</strong> part@partytime.com</p>
-        <p class="info"> <strong>Text/Phone: </strong>519 123 4321 </p>
-  
-  
+        <h3> RSVP to Stephanie Onosato </h3> 
+        <img class="portrait" src="portrait.jpg" alt="Real estate agent Stephanie"/>
+        <p class="info"> <strong>Email:</strong> onosato@bestrealtor.com</p>
+        <p class="info"> <strong>Text/Phone: </strong> 519 123 4321 </p>
     </section>
-    <section>
+    <section class="blue">
         <h2> Map </h2>
-    
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2893.5464764847!2d-79.88689052390761!3d43.51179576156518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b6f001661f841%3A0x27530ac8123b73b1!2sThe%20Barn%20Door%20Cafe!5e0!3m2!1sen!2sca!4v1753816463341!5m2!1sen!2sca"  style="border:0;"  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </section>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5788.486431665252!2d-79.89717755!3d43.497261550000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b6ff54fb80dd1%3A0x7e71bf81b3db52fb!2s6125%20Main%20St%20W%2C%20Milton%2C%20ON%20L9T%202X5!5e0!3m2!1sen!2sca!4v1755537830471!5m2!1sen!2sca"  style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>     
    </main>
 </body>
 </html>
