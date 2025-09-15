@@ -62,6 +62,6 @@ section {
     padding: 2vh;
 }
 
-.portrait {
+.roundcorners {
     border-radius: 50%;
 }
